@@ -1,0 +1,48 @@
+
+@import url('font.css');
+
+body,p,a,ul,li,header,main,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3{
+    font: var(--ubuntu700);
+}
+
+p{
+    font: var(--assistant400);
+}
+
+body{
+    height: 100%;
+    font: var(--assistant400);
+    /* display: block; */
+    list-style-type:none;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* li{
+    display: flex;
+    height: auto;
+} */
+
+/* main{
+    height: 100vh;
+} */
+
+header{
+    height: 100px; ;
+}

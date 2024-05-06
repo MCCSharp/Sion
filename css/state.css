@@ -1,0 +1,19 @@
+@import url('font.css');
+
+.nav-links li :hover {
+    border-radius: 10px ;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #FFFFFF;
+    font:var(--ubuntu700normal);
+}
+
+
+
+.desc-ctn .desc-header .desc-label::before{
+    content: "+ Mehr Anzeigen";
+}
+.desc-ctn.active .desc-header .desc-label::before{
+    content: "- Weniger Anzeigen";
+}
+

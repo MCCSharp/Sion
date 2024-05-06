@@ -1,0 +1,32 @@
+:root{
+    --bkcg-primary:#3572CC;
+    --bkcg-primary-li-grad:#3572CC linear-gradient(to bottom right, #2a5799, #4089f7);
+    --bkcg-secondary:#F7F7F7;
+    --bkcg-secondary-li-grad:#F7F7F7 linear-gradient(to bottom right, #f3f3f3,#dedede, #f3f3f3);
+    --font-main-color:#3572CC;
+    --font-second-color:white;
+}
+
+
+.theme-primary{
+    color: #3572CC;
+}
+.theme-secondary{
+    color: white;
+}
+
+.theme-tertiary{
+    color:  #333333;
+}
+
+.theme-primary-bck{
+    background-color: #3572CC;
+}
+
+.theme-secondary-bck{
+    background-color: #F7F7F7;
+}
+
+.linear-gradient{
+    background-image: linear-gradient(to right, #2a5799, #4089f7);
+}

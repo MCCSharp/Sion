@@ -1,0 +1,342 @@
+@import url('theme.css');
+@import url('font.css');
+@import url('layout.css');
+
+
+.bnr-ctnt-img-header {
+    background-image: url('/assets/imgs/png/pexels-photomix-company.png');
+}
+
+.bnr-ctnt-img-einsatzfaelle {
+    background-image: url('/assets/imgs/png/pexels-photomix-company-2.png');
+}
+
+/* bnr */
+
+.bnr-title-header {
+    /* height: fit-content; */
+    max-width: 1000px;
+    text-align: center;
+    transform: translate(0, 40%);
+}
+
+.bnr-title-header h1 {
+    font-size: 3.4em;
+}
+
+.bnr-title-einsatzfaelle {
+    /* height: fit-content; */
+    max-width: 1000px;
+    text-align: center;
+    transform: translate(0, 40%);
+}
+
+.bnr-title-einsatzfaelle h1 {
+    font-size: 3.4em;
+}
+
+.bnr-title-header p {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+/* container */
+
+
+
+
+.card-body>h3 {
+    position: absolute;
+    bottom: 20px;
+
+}
+
+.card-skinhead-m{
+    width: 460px;
+    padding: 0;
+}
+
+.card-skinhead-m .card-header{
+    position: relative;
+    min-height: 300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.ctn-txt{
+    width: 1100px;
+    margin: 30px;
+}
+
+
+.desc-ctn .desc-header h2{
+    font-size: 2em;
+}
+
+.desc-ctn .langdesctitle  h2{ 
+    font-size: 1.6em;  
+}
+
+.desc-ctn .desc-header .desc-label{
+    font-size: 0.7em;
+    font: var(--assistan700);
+}
+
+
+
+.desc-ctnt p{
+    width: 900px;
+    hyphens: manual;
+}
+
+.footer-footer{
+    padding: 15px 45px;
+}
+
+.footer-navbar a img{
+    width: 280px;
+}
+
+.link-btn {
+    width: fit-content;
+    padding: 2px 5px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    text-align: center;
+}
+
+/* Navbar */
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar .nav-links {
+    width: 600px;
+    margin-right: 5px;
+    line-height: 1.5;
+}
+
+.navbar .nav-links ul {
+    min-height: 80px;
+}
+
+.nav-links li {
+    gap: 50px;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    border: 2px none transparent;
+    transition: border-color 0.3s ease;
+}
+
+.footer-navbar a {
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.footer-navbar .nav-links {
+    width: 600px;
+    margin-right: 5px;
+    line-height: 1.5;
+}
+
+.footer-navbar .footer-links ul {
+    min-height: 80px;
+}
+
+.footer-links li {
+    gap: 50px;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    border: 2px none transparent;
+    transition: border-color 0.3s ease;
+}
+
+
+
+
+/* .navbar .nav-links ul li {
+    margin: 0 25px ;
+    border: 2px none transparent;
+    transition: border-color 0.4s ease;
+} */
+
+/* .navbar .nav-links ul li:hover {
+    border-radius: 10px ;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #FFFFFF;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 700;
+} */
+
+.navbar .menu-btn {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+/* .story-ctn{
+    display: inline-block;
+} */
+
+
+.story-ctnt{
+    position: relative;
+    width: 1100px;
+    /* height: 650px; */
+    /* flex: 1; */
+    padding: 50px;
+}
+
+.story-ctnt h2{
+    font-size: 2.4em;
+}
+
+.story-ctnt-txt{
+    width: 750px;
+}
+
+.story-ctn img{
+    position: absolute;
+    width: 450px;
+    top: 0;
+    right: 0;
+    transform: translate(50%,10%); 
+}
+
+
+
+.sub-story .title-primary-m h2{ 
+    text-align: left;
+}
+
+.title-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.beleihungswertgutachten-title{
+    padding-right: 20px;
+    
+}
+
+.beleihungswertgutachten-header{
+    background-image: url('/assets/imgs/png/pexels-jan-van-der-wolf-4.png');
+}
+
+.verkehrswertgutachten-header{
+    background-image: url('/assets/imgs/png/pexels-jan-van-der-wolf-1.png');
+
+}
+
+.mietwertgutachten-header{
+    background-image: url('/assets/imgs/png/pexels-jan-van-der-wolf-2.png');
+    
+}
+
+.due-diligence-analysen-header{
+    background-image: url('/assets/imgs/png/pexels-jan-van-der-wolf-5.png');
+}
+
+.due-diligence-analysen-title{
+    padding-right: 40px;
+}
+
+.wirtschaftlichkeits-analyse-header{
+    
+    background-image: url('/assets/imgs/png/pexels-jan-van-der-wolf-6.png');
+}
+
+.wirtschaftlichkeits-analyse-title{
+    padding-right: 20px;
+}
+
+.zweitmeinung-prüfung-header{
+    background-image: url('/assets/imgs/png/pexels-jan-van-der-wolf-7.png');
+}
+
+.zweitmeinung-prüfung-title{
+
+    padding-right: 30px;
+}
+
+.verkehrswertgutachten-header{
+    background-image: url('/assets/imgs/png/pexels-jan-van-der-wolf-9.png');
+    
+}
+
+.portfolio-bewertung-header{
+    background-image: url('/assets/imgs/png/pexels-jan-van-der-wolf-9.png');
+    
+}
+
+.testborder {
+    border: 2px solid black;
+}
+
+
+@media screen and (max-width: 1350px) {
+
+    .navbar .nav-links {
+        margin-right: 10%;
+    }
+
+    .navbar .nav-links ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar .menu-btn {
+        display: block;
+    }
+
+    .nav-links {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        backdrop-filter: blur(8px);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #3571cca9;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+
+
+    .nav-links.mobile-menu {
+        margin-left: 0;
+    }
+
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.navbar .nav-links ul li {
+    margin: 25px 0;
+}

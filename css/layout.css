@@ -1,0 +1,265 @@
+
+.sct-body{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* navbar */
+.navbar{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    max-height: 15vh;
+    background: var(--bkcg-primary-li-grad);
+    color: var(--font-second-color);
+    box-sizing: border-box;
+}
+
+/* bnr */
+
+.bnr{
+    position: relative;
+    flex-direction: row;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+}
+
+.bnr-ctnt{
+    
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    max-height: 500px;
+}
+
+.bnr-ctnt-img{
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.border-normal{
+    border: 2px solid transparent;
+    border-radius: 25px;
+}
+
+.border-s{
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+
+/* Card */
+
+.card {
+    padding: 10px 50px;
+    box-sizing: border-box;
+}
+
+.card-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    padding: 1px, 20px;
+}
+
+.card-ovf-title{
+    /* justify-content: right; */
+    position: absolute;
+    bottom: 45px;
+    transform: translate(-32%);
+    width: 700px;
+    padding: 10px 60px;
+    justify-content: right;
+}
+
+.card-ctnt{
+    margin: 20px;
+}
+
+.card-footer{
+    margin: 20px;
+    text-align: center;
+} 
+
+/* collapse */
+.collapse .collapsed{
+    display: none;
+    height: 0;
+    transition: 3s;
+}
+
+.collapse.active .collapsed {
+    padding: 20px;
+    display: block;
+    height: auto;
+}
+
+/* Container */
+
+.ctn{
+    border: 2px solid transparent;
+    border-radius: 25px;
+    padding: 30px;
+}
+.ctn-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.ctn-flex-s{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    /* padding: 10px; */
+}
+
+.ctn-primary{
+    background: var(--bkcg-primary);
+    color: var(--font-second-color);
+}
+.ctn-primary-grad{
+    background: var(--bkcg-primary-li-grad);
+    color: var(--font-second-color);
+}
+
+.ctn-secondary{
+    background: var(--bkcg-secondary);
+    color: var(--font-main-color);
+}
+.ctn-secondary-grad{
+    background: var(--bkcg-secondary-li-grad);
+    color: var(--font-main-color);
+}
+
+/* description-container */
+
+.desc-ctn{
+    padding: 10px 50px;
+    box-sizing: border-box;
+}
+
+.desc-ctn .desc-header{
+    padding: 20px;
+    justify-content: space-between;
+    align-content: baseline;
+}
+
+.footer-navbar{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    max-height: 15vh;
+    color: var(--font-second-color);
+    box-sizing: border-box;
+}
+
+
+/* .desc-ctn .desc-body {
+    display: none;
+    height: 0;
+    transition: 3s;
+}
+.desc-ctn.active .desc-body {
+    padding: 20px;
+    display: block;
+    height: auto;
+} */
+
+/* Title */
+
+.title-primary-lg{
+    /* display: flex;
+    align-items:last baseline;
+    justify-content: space-around; */
+    text-align: center;
+    font-size: 3em;
+    color:var(--font-main-color);
+    
+}
+.title-primary-m{
+    /* display: flex;
+    align-items:last baseline; */
+    text-align: center;
+    color:var(--font-main-color);
+    font-size: 2em;
+    
+}
+.title-primary-s{
+    /* display: flex;
+    align-items:last baseline; */
+    text-align: center;
+    color:var(--font-main-color);
+    font-size: 1.2em;
+}
+.title-secondary{
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    text-align: center;
+    color:var(--font-second-color)
+}
+
+.sct-body-privatkunden{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.sct-body-geschäftskunden{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.story{
+    padding-left: 70px; 
+}
+
+.story-ctn{
+    padding: 60px 100px;
+}
+
+.sub-story{
+    padding: 60px 100px;
+}
+
+.pad-60-100{
+    padding: 60px 100px;
+}
+
+.w90{
+    width: 90%;
+}
+
+/* Spacing */
+.h100{
+    min-height: 100px;
+}
